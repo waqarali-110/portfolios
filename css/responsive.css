@@ -1,0 +1,75 @@
+@media only screen and (max-width: 993px) {
+
+.first-row{
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.section-one .para-head h1,span{
+   font-size: 30px;
+   max-width: 100%;
+   text-align: center;
+}
+.para-head h2 {
+    text-align: center;
+}
+.para-head p{
+    text-align: center;
+}
+.icons{
+    text-align: center;
+}
+
+.para-heads h1 {
+    text-align: center;
+}
+.para-heads p {
+    text-align: center;
+}
+.anchor a {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+.cards h2{
+    font-size: 20px;
+}
+.section-three .cards p {
+    font-size: 13px;
+}
+.cards{
+    margin-bottom: 30px;
+}
+.image img {
+margin-left: 50px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .cards h2 {
+        font-size: 14px;
+    }
+    .section-three .cards p {
+        font-size: 8px;
+    }
+    .cards .anchor a {
+        font-size: 8px;
+        padding: 5px;
+    }
+    .para-heads p {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 425px) {
+
+    .cards h2 {
+        font-size: 9px;
+    }
+    .section-three .cards p {
+        font-size: 6px;
+    }
+}
